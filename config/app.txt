@@ -1,0 +1,3 @@
+In providers array
+
+App\Providers\GoogleDriveServiceProvider::class,

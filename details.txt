@@ -1,0 +1,18 @@
+for calendar api
+
+--> laravel composer details ::Google API client:
+    composer require google/apiclient:^2.0
+
+    
+Installation of file system to integrate drive
+--> For Google Drive API V3
+    composer require nao-pon/flysystem-google-drive:~1.1
+-->For Google Drive API V2 "Deprecated"
+    composer require nao-pon/flysystem-google-drive:~1.0.0
+
+
+
+    Link
+
+    1.    https://gist.github.com/sergomet/f234cc7a8351352170eb547cccd65011
+    2.    https://www.youtube.com/watch?v=dVUGVmJdJ1A
