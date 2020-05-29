@@ -29,6 +29,7 @@ class CalendarController extends Controller
     public function __construct()
     {
         $client = new Google_Client();
+        // get credential of api in credentials.json and store in public path
         $client->setAuthConfig('credentials.json');
         $client->addScope(Google_Service_Calendar::CALENDAR);
 //      local env ssl verifier by pass
